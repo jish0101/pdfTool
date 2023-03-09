@@ -1,0 +1,43 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: 'class',
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    fontFamily: {
+      sans: ['Source Sans Pro', 'sans-serif'],
+    },
+    colors: {
+      'light-100': '#ffffff',
+      'light-200': '#f3f5f7',
+      'light-300': '#ebedee',
+      'light-400': '#e7e6e9',
+      'light-500': '#d9dbdf',
+      'light-600': '#d0d2d6',
+      'light-700': '#c7c8cc',
+      'light-800': '#989ba5',
+      'light-blue-100': 'e6effa',
+      'light-blue-200': '#d7e7f8',
+      'light-blue-300': '#b2cef0',
+      'light-blue-400': '#8bb7e9',
+      'light-blue-500': '#66aceb',
+      'dark-100': '#111518',
+      'dark-200': '#1d2129',
+      'dark-300': '#2a2f39',
+      'dark-400': '#393c47',
+      'dark-500': '#454756',
+      'dark-600': '#4d515f',
+      'dark-700': '#4f5462',
+      'dark-800': '#5a5d70',
+      'dark-blue-100': '#033e63',
+      'dark-blue-200': '#294980',
+      'dark-blue-300': '#2f5294',
+      'dark-blue-400': '#335ca0',
+      'dark-blue-500': '#1d64b8',
+    },
+    extend: {},
+  },
+  plugins: [],
+}

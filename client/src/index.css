@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a{
+    @apply hover:opacity-70;
+}
+
+a.filled {
+    @apply px-4 py-3 rounded-md bg-light-blue-500 font-bold text-light-100;
+}
+a.outlined {
+    @apply px-4 py-3 rounded-md font-bold text-light-blue-500 outline outline-1;
+}
+a.outlined:hover {
+    @apply bg-light-blue-500 text-light-100 opacity-100 outline-none;
+}
+button.filled {
+    @apply px-4 py-3 rounded-md bg-light-blue-500 font-bold text-light-100;
+}
+button.outlined {
+    @apply px-4 py-3 rounded-md font-bold text-light-blue-500 outline outline-1;
+}
